@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<article class="seminar">
+    <header class="seminar-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.speaker %}
+        <p class="speaker">Speaker: {{ page.speaker }}</p>
+        {% endif %}
+        {% if page.date %}
+        <p class="date">Date: {{ page.date | date: "%B %d, %Y at %H:%M" }}</p>
+        {% endif %}
+        {% if page.location %}
+        <p class="location">Location: {{ page.location }}</p>
+        {% endif %}
+    </header>
+    
+    <div class="seminar-content">
+        <h2>Abstract</h2>
+        {{ content }}
+    </div>
+    
+    {% if page.speaker_bio %}
+    <section class="speaker-bio">
+        <h2>About the Speaker</h2>
+        <p>{{ page.speaker_bio }}</p>
+    </section>
+    {% endif %}
+</article>
+
+<p class="back-link"><a href="/seminars/">← Back to Seminars</a></p>

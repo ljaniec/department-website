@@ -1,0 +1,61 @@
+# Site settings
+title: Department of Cybernetics and Robotics
+description: >-
+  Department of Cybernetics and Robotics,
+  Wrocław University of Science and Technology
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Collections
+collections:
+  faculty:
+    output: true
+    permalink: /faculty/:name/
+  research:
+    output: true
+    permalink: /research/:name/
+  laboratories:
+    output: true
+    permalink: /laboratories/:name/
+  seminars:
+    output: true
+    permalink: /seminars/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "faculty"
+    values:
+      layout: "faculty"
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "research"
+  - scope:
+      path: ""
+      type: "laboratories"
+    values:
+      layout: "laboratory"
+  - scope:
+      path: ""
+      type: "seminars"
+    values:
+      layout: "seminar"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

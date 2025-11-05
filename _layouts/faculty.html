@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<article class="faculty-profile">
+    <header class="profile-header">
+        <h1>{{ page.name }}</h1>
+        <p class="position">{{ page.position }}</p>
+        {% if page.email %}
+        <p class="contact">Email: <a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+        {% endif %}
+        {% if page.website %}
+        <p class="website">Website: <a href="{{ page.website }}" target="_blank">{{ page.website }}</a></p>
+        {% endif %}
+    </header>
+    
+    <div class="profile-content">
+        {{ content }}
+    </div>
+    
+    {% if page.research_interests %}
+    <section class="research-interests">
+        <h2>Research Interests</h2>
+        <ul>
+        {% for interest in page.research_interests %}
+            <li>{{ interest }}</li>
+        {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+    
+    {% if page.publications %}
+    <section class="publications">
+        <h2>Selected Publications</h2>
+        <ul>
+        {% for pub in page.publications %}
+            <li>{{ pub }}</li>
+        {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+</article>
+
+<p class="back-link"><a href="/faculty/">← Back to Faculty</a></p>
