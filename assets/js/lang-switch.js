@@ -4,7 +4,7 @@
 // - Nie powoduje dynamicznej zamiany treści, tylko redirect do wygenerowanej strony lokalizowanej.
 document.addEventListener('DOMContentLoaded', function () {
   try {
-    var sel = document.getElementById('lang-select');
+    const sel = document.getElementById('lang-select');
     if (!sel) return;
 
     var path = window.location.pathname || '/';
