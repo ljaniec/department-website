@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const sel = document.getElementById('lang-select');
     if (!sel) return;
 
-    var path = window.location.pathname || '/';
+    const path = window.location.pathname || '/';
     // Rozpoznaj prefiks /en jako angielski
     var isEn = path === '/en' || path === '/en/' || path.indexOf('/en/') === 0;
     sel.value = isEn ? 'en' : 'pl';
