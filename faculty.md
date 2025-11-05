@@ -1,18 +1,26 @@
 ---
 layout: page
-title: Faculty Members
-subtitle: Meet our distinguished professors and researchers
+title: Członkowie Wydziału
+subtitle: Poznaj naszych wybitnych profesorów i badaczy
 permalink: /faculty/
 ---
 
-Our department consists of dedicated researchers and educators who are leaders in their fields. Each faculty member brings unique expertise in various areas of cybernetics, robotics, and automation.
+Nasz wydział składa się z poświęconych badaczy i edukatorów, którzy są liderami w swoich dziedzinach. Każdy członek wydziału wnosi unikalną wiedzę specjalistyczną w różnych obszarach cybernetyki, robotyki i automatyki.
 
+{% if site.active_lang == site.default_lang %}
+  {% assign lang_prefix = '' %}
+{% else %}
+  {% assign lang_prefix = '/' | append: site.active_lang %}
+{% endif %}
+
+<!-- markdownlint-disable MD033 -->
 <div class="faculty-list">
 {% for member in site.faculty %}
   <div class="faculty-card">
-    <h3><a href="{{ member.url }}">{{ member.name }}</a></h3>
+  <h3><a href="{{ lang_prefix }}{{ member.url }}">{{ member.name }}</a></h3>
     <p class="position">{{ member.position }}</p>
     <p>{{ member.excerpt | strip_html | truncatewords: 30 }}</p>
-  </div>
 {% endfor %}
 </div>
+</div>
+<!-- markdownlint-enable MD033 -->

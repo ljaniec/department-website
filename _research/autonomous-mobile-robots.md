@@ -1,52 +1,52 @@
 ---
-title: Autonomous Mobile Robots
+title: Autonomiczne Roboty Mobilne
 lead: Prof. Jan Kowalski
 team:
   - Prof. Jan Kowalski
   - Dr. Anna Nowak
-  - Ph.D. Student - Marek Lewandowski
-  - Ph.D. Student - Katarzyna Dąbrowska
+  - Doktorant - Marek Lewandowski
+  - Doktorantka - Katarzyna Dąbrowska
 projects:
-  - "EU Horizon 2020: Smart Navigation Systems"
-  - "NCN Grant: Multi-Robot Coordination"
-  - "Industrial Partnership: Warehouse Automation"
+  - "EU Horizon 2020: Inteligentne Systemy Nawigacji"
+  - "Grant NCN: Koordynacja Wielorobotowa"
+  - "Partnerstwo Przemysłowe: Automatyzacja Magazynów"
 ---
 
-Research in autonomous mobile robots focuses on developing intelligent systems capable of navigating complex environments without human intervention. Our work spans theoretical foundations to practical implementations.
+Badania nad autonomicznymi robotami mobilnymi koncentrują się na opracowywaniu inteligentnych systemów zdolnych do nawigacji w złożonych środowiskach bez interwencji człowieka. Nasza praca obejmuje podstawy teoretyczne do praktycznych implementacji.
 
-## Overview
+## Przegląd
 
-Autonomous mobile robots are becoming increasingly important in various applications, from warehouse automation to service robotics. Our research addresses key challenges in:
+Autonomiczne roboty mobilne stają się coraz ważniejsze w różnych zastosowaniach, od automatyzacji magazynów po robotykę usługową. Nasze badania dotyczą kluczowych wyzwań w:
 
-- **Path Planning**: Developing efficient algorithms for finding optimal paths in complex environments
-- **Localization and Mapping**: Creating accurate maps while simultaneously determining the robot's position (SLAM)
-- **Obstacle Avoidance**: Real-time detection and avoidance of static and dynamic obstacles
-- **Multi-Robot Coordination**: Enabling teams of robots to work together efficiently
+- **Planowanie Ścieżki**: Opracowywanie efektywnych algorytmów do znajdowania optymalnych ścieżek w złożonych środowiskach
+- **Lokalizacja i Mapowanie**: Tworzenie dokładnych map przy jednoczesnym określaniu pozycji robota (SLAM)
+- **Unikanie Przeszkód**: Wykrywanie i unikanie przeszkód statycznych i dynamicznych w czasie rzeczywistym
+- **Koordynacja Wielorobotowa**: Umożliwienie zespołom robotów efektywnej współpracy
 
-## Mathematical Formulation
+## Formulacja Matematyczna
 
-The path planning problem can be formulated as an optimization task. Given a configuration space $\mathcal{C}$ and obstacle region $\mathcal{C}_{obs}$, we seek a continuous path:
+Problem planowania ścieżki można sformułować jako zadanie optymalizacji. Biorąc pod uwagę przestrzeń konfiguracji $\mathcal{C}$ i region przeszkód $\mathcal{C}_{obs}$, szukamy ciągłej ścieżki:
 
 $$\gamma: [0,1] \rightarrow \mathcal{C}_{free}$$
 
-where $\mathcal{C}_{free} = \mathcal{C} \setminus \mathcal{C}_{obs}$, such that:
+gdzie $\mathcal{C}_{free} = \mathcal{C} \setminus \mathcal{C}_{obs}$, takiej że:
 
 $$\gamma(0) = q_{start}, \quad \gamma(1) = q_{goal}$$
 
-The cost function to minimize is:
+Funkcja kosztu do minimalizacji to:
 
 $$J(\gamma) = \int_0^1 c(\gamma(t), \dot{\gamma}(t)) dt$$
 
-where $c$ represents the cost of traversing the path.
+gdzie $c$ reprezentuje koszt przejścia ścieżki.
 
-## Current Results
+## Obecne Wyniki
 
-Our recent work has demonstrated:
-- 30% improvement in path planning efficiency using learned heuristics
-- Successful deployment of multi-robot systems in industrial settings
-- Real-time obstacle avoidance in dynamic environments with 99.8% success rate
+Nasze ostatnie prace wykazały:
+- 30% poprawę efektywności planowania ścieżki przy użyciu nauczonych heurystyk
+- Pomyślne wdrożenie systemów wielorobotowych w środowiskach przemysłowych
+- Unikanie przeszkód w czasie rzeczywistym w dynamicznych środowiskach z 99,8% wskaźnikiem sukcesu
 
-## Future Directions
+## Przyszłe Kierunki
 
 We are exploring:
 - Integration of deep reinforcement learning for adaptive navigation

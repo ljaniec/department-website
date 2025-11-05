@@ -1,33 +1,33 @@
 ---
 name: Prof. Jan Kowalski
-position: Full Professor, Head of Department
+position: Profesor Zwyczajny, Kierownik Wydziału
 email: jan.kowalski@pwr.edu.pl
 website: https://example.com/jkowalski
 research_interests:
-  - Autonomous Mobile Robots
-  - Path Planning Algorithms
-  - Multi-Agent Systems
-  - Machine Learning in Robotics
+  - Autonomiczne Roboty Mobilne
+  - Algorytmy Planowania Ścieżki
+  - Systemy Wieloagentowe
+  - Uczenie Maszynowe w Robotyce
 publications:
-  - "Kowalski, J. (2024). Advanced Path Planning for Mobile Robots. IEEE Transactions on Robotics, 40(2), 123-145."
-  - "Kowalski, J., & Nowak, A. (2023). Collaborative Navigation in Multi-Robot Systems. Robotics and Autonomous Systems, 158, 104-120."
-  - "Kowalski, J. (2022). Machine Learning Approaches in Mobile Robotics. Springer."
+  - "Kowalski, J. (2024). Zaawansowane planowanie ścieżki dla robotów mobilnych. IEEE Transactions on Robotics, 40(2), 123-145."
+  - "Kowalski, J., & Nowak, A. (2023). Współpracująca nawigacja w systemach wielorobotowych. Robotics and Autonomous Systems, 158, 104-120."
+  - "Kowalski, J. (2022). Podejścia uczenia maszynowego w robotyce mobilnej. Springer."
 ---
 
-Professor Jan Kowalski is the Head of the Department of Cybernetics and Robotics. He received his Ph.D. in Automatic Control and Robotics from Wrocław University of Science and Technology in 2005. His research focuses on autonomous mobile robots, particularly in the areas of path planning and multi-agent coordination.
+Profesor Jan Kowalski jest Kierownikiem Wydziału Cybernetyki i Robotyki. Uzyskał doktorat w zakresie Automatyki i Robotyki na Politechnice Wrocławskiej w 2005 roku. Jego badania koncentrują się na autonomicznych robotach mobilnych, szczególnie w obszarach planowania ścieżki i koordynacji wieloagentowej.
 
-## Biography
+## Biografia
 
-Prof. Kowalski has been with the department since 2000, starting as an assistant professor and progressing to his current position in 2015. He has supervised over 20 Ph.D. students and published more than 100 scientific papers in international journals and conferences.
+Prof. Kowalski jest związany z wydziałem od 2000 roku, zaczynając jako adiunkt i awansując na obecne stanowisko w 2015 roku. Promował ponad 20 doktorantów i opublikował ponad 100 prac naukowych w międzynarodowych czasopismach i konferencjach.
 
-## Current Research Projects
+## Obecne Projekty Badawcze
 
-- **Autonomous Navigation in Dynamic Environments**: Developing algorithms for real-time path planning in environments with moving obstacles
-- **Swarm Robotics**: Investigating coordination strategies for large groups of autonomous robots
-- **AI-Powered Robotic Systems**: Integrating deep learning techniques with traditional control methods
+- **Autonomiczna Nawigacja w Dynamicznych Środowiskach**: Opracowywanie algorytmów do planowania ścieżki w czasie rzeczywistym w środowiskach z ruchomymi przeszkodami
+- **Robotyka Roju**: Badanie strategii koordynacji dla dużych grup autonomicznych robotów
+- **Systemy Robotyczne Zasilane SI**: Integracja technik głębokiego uczenia z tradycyjnymi metodami sterowania
 
-## Teaching
+## Nauczanie
 
-- Control Theory (undergraduate)
-- Mobile Robotics (graduate)
-- Advanced Topics in Autonomous Systems (Ph.D. level)
+- Teoria Sterowania (studia licencjackie)
+- Robotyka Mobilna (studia magisterskie)
+- Zaawansowane Tematy w Systemach Autonomicznych (poziom doktorancki)

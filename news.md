@@ -1,20 +1,26 @@
 ---
 layout: page
-title: News
-subtitle: Latest updates from our department
+title: Aktualności
+subtitle: Najnowsze informacje z naszego wydziału
 permalink: /news/
 ---
 
-Stay informed about the latest news, achievements, and events from the Department of Cybernetics and Robotics.
+Bądź na bieżąco z najnowszymi wiadomościami, osiągnięciami i wydarzeniami z Wydziału Cybernetyki i Robotyki.
+
+{% if site.active_lang == site.default_lang %}
+  {% assign lang_prefix = '' %}
+{% else %}
+  {% assign lang_prefix = '/' | append: site.active_lang %}
+{% endif %}
 
 <div class="post-list">
 {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
 {% for post in sorted_posts %}
   <div class="post-card">
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <h3><a href="{{ lang_prefix }}{{ post.url }}">{{ post.title }}</a></h3>
     <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
     <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-    <a href="{{ post.url }}">Read more →</a>
+    <a href="{{ lang_prefix }}{{ post.url }}">Czytaj więcej →</a>
   </div>
 {% endfor %}
 </div>

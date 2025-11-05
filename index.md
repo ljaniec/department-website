@@ -1,35 +1,44 @@
 ---
 layout: home
-title: Home
+title: Strona główna
+permalink: /
 ---
 
-# Welcome to the Department of Cybernetics and Robotics
+## Witamy na Wydziale Cybernetyki i Robotyki
 
-The Department of Cybernetics and Robotics at Wrocław University of Science and Technology is a leading research and education center in Poland, focusing on cutting-edge technologies in automation, robotics, and intelligent systems.
+Wydział Cybernetyki i Robotyki Politechniki Wrocławskiej jest wiodącym ośrodkiem badawczym i edukacyjnym w Polsce, skupiającym się na najnowocześniejszych technologiach w automatyce, robotyce i systemach inteligentnych.
 
-## Our Mission
+## Nasza Misja
 
-We strive to advance the fields of cybernetics and robotics through:
-- Innovative research in autonomous systems, control theory, and artificial intelligence
-- High-quality education preparing students for challenges in modern technology
-- Collaboration with industry and international research institutions
-- Contributing to the development of intelligent automation solutions
+Dążymy do rozwoju dziedzin cybernetyki i robotyki poprzez:
 
-## Quick Links
+- Innowacyjne badania w zakresie systemów autonomicznych, teorii sterowania i sztucznej inteligencji
+- Wysokiej jakości edukację przygotowującą studentów do wyzwań współczesnej technologii
+- Współpracę z przemysłem i międzynarodowymi instytucjami badawczymi
+- Wkład w rozwój inteligentnych rozwiązań automatyzacyjnych
 
-- [Faculty Members](/faculty/) - Meet our distinguished professors and researchers
-- [Research Topics](/research/) - Explore our research areas
-- [Laboratories](/laboratories/) - Discover our state-of-the-art facilities
-- [Latest News](/news/) - Stay updated with department activities
-- [Seminars](/seminars/) - Join our scientific seminars
+## Szybkie Linki
 
-## Contact
 
-Department of Cybernetics and Robotics  
-Wrocław University of Science and Technology  
+{% if site.active_lang == site.default_lang %}
+	{% assign lang_prefix = '' %}
+{% else %}
+	{% assign lang_prefix = '/' | append: site.active_lang %}
+{% endif %}
+
+- [Członkowie Wydziału]({{ lang_prefix }}/faculty/) - Poznaj naszych wybitnych profesorów i badaczy
+- [Tematy Badań]({{ lang_prefix }}/research/) - Odkryj nasze obszary badawcze
+- [Laboratoria]({{ lang_prefix }}/laboratories/) - Poznaj nasze nowoczesne obiekty
+- [Aktualności]({{ lang_prefix }}/news/) - Bądź na bieżąco z działalnością wydziału
+- [Seminaria]({{ lang_prefix }}/seminars/) - Dołącz do naszych seminariów naukowych
+
+## Kontakt
+
+Wydział Cybernetyki i Robotyki  
+Politechnika Wrocławska  
 Wybrzeże Wyspiańskiego 27  
-50-370 Wrocław, Poland
+50-370 Wrocław, Polska
 
 ---
 
-*Excellence in Research. Innovation in Education.*
+*Doskonałość w Badaniach. Innowacja w Edukacji.*

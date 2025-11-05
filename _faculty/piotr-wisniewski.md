@@ -1,36 +1,36 @@
 ---
 name: Dr. Piotr Wiśniewski
-position: Assistant Professor
+position: Adiunkt
 email: piotr.wisniewski@pwr.edu.pl
 research_interests:
-  - Control Theory
-  - Nonlinear Systems
-  - Model Predictive Control
-  - Cyber-Physical Systems
+  - Teoria Sterowania
+  - Systemy Nieliniowe
+  - Sterowanie Predykcyjne Modelowe
+  - Systemy Cyber-Fizyczne
 publications:
-  - "Wiśniewski, P. (2023). Robust Control of Nonlinear Systems with Uncertainties. Automatica, 145, 110567."
-  - "Wiśniewski, P., & Zieliński, M. (2022). Model Predictive Control for Autonomous Vehicles. Control Engineering Practice, 118, 104982."
+  - "Wiśniewski, P. (2023). Robustne sterowanie systemami nieliniowymi z niepewnościami. Automatica, 145, 110567."
+  - "Wiśniewski, P., & Zieliński, M. (2022). Sterowanie predykcyjne modelowe dla pojazdów autonomicznych. Control Engineering Practice, 118, 104982."
 ---
 
-Dr. Piotr Wiśniewski is an expert in control theory with focus on nonlinear systems and model predictive control. He received his Ph.D. in 2018 from Wrocław University of Science and Technology.
+Dr Piotr Wiśniewski jest ekspertem w teorii sterowania z naciskiem na systemy nieliniowe i sterowanie predykcyjne modelowe. Uzyskał doktorat w 2018 roku na Politechnice Wrocławskiej.
 
-## Research Interests
+## Zainteresowania Badawcze
 
-His research combines theoretical advances in control theory with practical applications in robotics and autonomous systems. He is particularly interested in developing control strategies that can handle uncertainties and disturbances.
+Jego badania łączą teoretyczne postępy w teorii sterowania z praktycznymi zastosowaniami w robotyce i systemach autonomicznych. Szczególnie interesuje się opracowywaniem strategii sterowania, które mogą radzić sobie z niepewnościami i zakłóceniami.
 
-## Current Projects
+## Obecne Projekty
 
-- Advanced control algorithms for autonomous vehicles
-- Robust control design for industrial processes
-- Cyber-physical systems security
+- Zaawansowane algorytmy sterowania dla pojazdów autonomicznych
+- Projektowanie robustnego sterowania dla procesów przemysłowych
+- Bezpieczeństwo systemów cyber-fizycznych
 
-## Teaching
+## Nauczanie
 
-- Control Systems (undergraduate)
-- Nonlinear Control (graduate)
-- Optimal Control (graduate)
+- Systemy Sterowania (studia licencjackie)
+- Sterowanie Nieliniowe (studia magisterskie)
+- Sterowanie Optymalne (studia magisterskie)
 
-## Awards
+## Nagrody
 
-- Best Paper Award at European Control Conference (2021)
-- Dean's Award for Teaching Excellence (2023)
+- Nagroda za Najlepszy Artykuł na Europejskiej Konferencji Sterowania (2021)
+- Nagroda Dziekana za Doskonałość w Nauczaniu (2023)

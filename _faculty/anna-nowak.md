@@ -1,32 +1,32 @@
 ---
 name: Dr. Anna Nowak
-position: Associate Professor
+position: Profesor Nadzwyczajny
 email: anna.nowak@pwr.edu.pl
 website: https://example.com/anowak
 research_interests:
-  - Industrial Robotics
-  - Human-Robot Interaction
-  - Computer Vision
-  - Robotic Manipulation
+  - Robotyka Przemysłowa
+  - Interakcja Człowiek-Robot
+  - Wizja Komputerowa
+  - Manipulacja Robotyczna
 publications:
-  - "Nowak, A. (2024). Vision-Based Robotic Grasping in Cluttered Environments. IEEE Robotics and Automation Letters, 9(1), 89-96."
-  - "Nowak, A., & Kowalski, J. (2023). Safe Human-Robot Collaboration in Manufacturing. Journal of Manufacturing Systems, 67, 45-58."
+  - "Nowak, A. (2024). Wizyjne chwytanie robotyczne w środowiskach zagraconych. IEEE Robotics and Automation Letters, 9(1), 89-96."
+  - "Nowak, A., & Kowalski, J. (2023). Bezpieczna współpraca człowiek-robot w produkcji. Journal of Manufacturing Systems, 67, 45-58."
 ---
 
-Dr. Anna Nowak specializes in industrial robotics and human-robot interaction. She earned her Ph.D. in 2012 and has been working on applications of computer vision in robotic systems.
+Dr Anna Nowak specjalizuje się w robotyce przemysłowej i interakcji człowiek-robot. Uzyskała doktorat w 2012 roku i pracuje nad zastosowaniami wizji komputerowej w systemach robotycznych.
 
-## Research Focus
+## Skupienie Badań
 
-Her current research involves developing safe and efficient collaborative robots (cobots) for industrial applications. She leads several projects funded by the European Union and Polish National Science Centre.
+Jej obecne badania obejmują rozwój bezpiecznych i efektywnych robotów współpracujących (cobots) do zastosowań przemysłowych. Kieruje kilkoma projektami finansowanymi przez Unię Europejską i Narodowe Centrum Nauki.
 
-## Key Achievements
+## Kluczowe Osiągnięcia
 
-- Recipient of the Young Scientist Award from the Polish Academy of Sciences (2020)
-- Principal investigator of 3 international research projects
-- Over 50 publications in top-tier journals and conferences
+- Laureatka Nagrody Młodego Naukowca Polskiej Akademii Nauk (2020)
+- Główny badacz 3 międzynarodowych projektów badawczych
+- Ponad 50 publikacji w czołowych czasopismach i konferencjach
 
-## Teaching
+## Nauczanie
 
-- Introduction to Robotics (undergraduate)
-- Computer Vision for Robotics (graduate)
-- Industrial Automation Systems (graduate)
+- Wprowadzenie do Robotyki (studia licencjackie)
+- Wizja Komputerowa dla Robotyki (studia magisterskie)
+- Systemy Automatyki Przemysłowej (studia magisterskie)

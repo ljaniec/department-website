@@ -10,6 +10,17 @@ url: "" # the base hostname & protocol for your site
 markdown: kramdown
 theme: minima
 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-polyglot
+
+# Polyglot settings
+languages: ["pl", "en"]
+default_lang: "pl"
+exclude_from_localization: ["javascript", "images", "css", "public", "vendor"]
+parallel_localization: false
+
 # Collections
 collections:
   faculty:
