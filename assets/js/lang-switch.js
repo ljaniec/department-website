@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
     sel.addEventListener('change', function (e) {
       var opt = e.target.selectedOptions && e.target.selectedOptions[0];
       if (!opt) return;
-      var url = opt.getAttribute('data-url');
+      let url = opt.getAttribute('data-url');
       if (!url) return;
       try {
         // Normalizuj względny URL
