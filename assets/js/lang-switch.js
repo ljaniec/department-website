@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     sel.value = isEn ? 'en' : 'pl';
 
     sel.addEventListener('change', function (e) {
-      var opt = e.target.selectedOptions && e.target.selectedOptions[0];
+      const opt = e.target.selectedOptions && e.target.selectedOptions[0];
       if (!opt) return;
       let url = opt.getAttribute('data-url');
       if (!url) return;
