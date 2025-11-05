@@ -5,7 +5,7 @@
   - EN -> prefiks /en + page.url (przy root page.url == "/" otrzymamy "/en/")
   {%- endcomment -%}
 
-  <option value="pl" data-url="{{ page.url | prepend: site.baseurl | replace: '//', '/' }}">PL</option>
+  <option value="pl" data-url="{{ page.url | replace_first: '/en/', '/' | replace_first: '/en', '/' | prepend: site.baseurl | replace: '//', '/' }}">PL</option>
   <option value="en" data-url="{{ '/en' | append: page.url | prepend: site.baseurl | replace: '//', '/' }}">EN</option>
 </select>
 
