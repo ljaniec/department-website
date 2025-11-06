@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: pl
 title: "Wydział Otrzymuje Duży Grant Badawczy z Programu UE Horyzont Europa"
 date: 2024-01-15 10:00:00 +0100
 author: Administracja Wydziału

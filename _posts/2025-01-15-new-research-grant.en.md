@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Department Receives Major Research Grant from EU Horizon Europe"
 date: 2024-01-15 10:00:00 +0100
 author: Department Administration
