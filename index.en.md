@@ -1,6 +1,8 @@
 ---
 layout: home
 title: Home
+permalink: /
+lang: en
 ---
 
 ## Welcome to the Department of Cybernetics and Robotics
@@ -17,13 +19,6 @@ We strive to advance the fields of cybernetics and robotics through:
 - Contributing to the development of intelligent automation solutions
 
 ## Quick Links
-
-
-{% if site.active_lang == site.default_lang %}
-  {% assign lang_prefix = '' %}
-{% else %}
-  {% assign lang_prefix = '/' | append: site.active_lang %}
-{% endif %}
 
 - [Faculty Members]({{ lang_prefix }}/faculty/) - Meet our distinguished professors and researchers
 - [Research Topics]({{ lang_prefix }}/research/) - Explore our research areas

@@ -1,26 +1,24 @@
 ---
 layout: page
-title: Tematy Badań
-subtitle: Odkrywanie granic cybernetyki i robotyki
+title: Badania
+lang: pl
 permalink: /research/
 ---
 
-Nasz wydział prowadzi najnowocześniejsze badania w różnych obszarach cybernetyki i robotyki. Współpracujemy z międzynarodowymi instytucjami badawczymi i partnerami z przemysłu, aby posunąć stan wiedzy naprzód.
+## Obszary Badawcze
 
-<div class="research-list">
-{% if site.active_lang == site.default_lang %}
-  {% assign lang_prefix = '' %}
-{% else %}
-  {% assign lang_prefix = '/' | append: site.active_lang %}
-{% endif %}
+Wydział Cybernetyki i Robotyki prowadzi badania w następujących obszarach.
 
-{% for topic in site.research %}
-  <div class="research-card">
-    <h3><a href="{{ lang_prefix }}{{ topic.url }}">{{ topic.title }}</a></h3>
-    {% if topic.lead %}
-    <p class="lead-researcher">Kierownik: {{ topic.lead }}</p>
-    {% endif %}
-    <p>{{ topic.excerpt | strip_html | truncatewords: 30 }}</p>
-  </div>
-{% endfor %}
-</div>
+### Systemy Autonomiczne
+
+Rozwijamy zaawansowane systemy autonomiczne, w tym roboty mobilne i drony.
+
+### Teoria Sterowania
+
+Badania obejmują teorię sterowania optymalnego i sterowanie adaptatycyjne.
+
+### Sztuczna Inteligencja
+
+Badamy zastosowania AI w robotyce, uczenie głębokie i widzenie komputerowe.
+
+Strona w przygotowaniu.

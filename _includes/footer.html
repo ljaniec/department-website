@@ -1,28 +1,94 @@
 <footer class="site-footer">
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>{{ site.title }}</h3>
-                <p>{{ site.description }}</p>
-            </div>
-            <div class="footer-section">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="/faculty/">Faculty</a></li>
-                    <li><a href="/research/">Research</a></li>
-                    <li><a href="/laboratories/">Laboratories</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>Contact</h3>
-                <p>
-                    Wybrzeże Wyspiańskiego 27<br>
-                    50-370 Wrocław, Poland
-                </p>
-            </div>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>{{ site.title }}</h3>
+        <p>{{ site.description }}</p>
+      </div>
+      <div class="footer-section">
+        {% if site.active_lang == 'pl' %}
+        <h3>Szybkie Linki</h3>
+        <ul>
+          <li><a href="/faculty/">Zespół</a></li>
+          <li><a href="/research/">Badania</a></li>
+          <li><a href="/laboratories/">Laboratoria</a></li>
+        </ul>
+        {% else %}
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/en/faculty/">Faculty</a></li>
+          <li><a href="/en/research/">Research</a></li>
+          <li><a href="/en/laboratories/">Laboratories</a></li>
+        </ul>
+        {% endif %}
+      </div>
+      <div class="footer-section">
+        {% if site.active_lang == 'pl' %}
+        <h3>Kontakt</h3>
+        <p>
+          Wybrzeże Wyspiańskiego 27<br />
+          50-370 Wrocław, Polska
+        </p>
+        {% else %}
+        <h3>Contact</h3>
+        <p>
+          Wybrzeże Wyspiańskiego 27<br />
+          50-370 Wrocław, Poland
+        </p>
+        {% endif %}
+      </div>
+      <div class="footer-section">
+        {% if site.active_lang == 'pl' %}
+        <h3>Język</h3>
+        {% else %}
+        <h3>Language</h3>
+        {% endif %}
+        <div class="language-switcher">
+          {% comment %} Compute PL/EN URLs like in header and prevent
+          relativization {% endcomment %} {% assign current = page.url |
+          default: '/' %} {% if current == '/' or current == '/en/' %} {% assign
+          pl_url = '/' %} {% assign en_url = '/en/' %} {% elsif current contains
+          '/en/' %} {% assign pl_url = current | replace_first: '/en/', '/' %}
+          {% assign en_url = current %} {% else %} {% assign pl_url = current %}
+          {% assign en_url = '/en' | append: current %} {% endif %}
+
+          <a
+            {%
+            static_href
+            %}href="{{ pl_url }}"
+            {%
+            endstatic_href
+            %}
+            class="lang-flag"
+            title="Polski"
+            >🇵🇱 PL</a
+          >
+          <a
+            {%
+            static_href
+            %}href="{{ en_url }}"
+            {%
+            endstatic_href
+            %}
+            class="lang-flag"
+            title="English"
+            >🇬🇧 EN</a
+          >
         </div>
-        <div class="footer-bottom">
-            <p>&copy; {{ 'now' | date: "%Y" }} Department of Cybernetics and Robotics, Wrocław University of Science and Technology</p>
-        </div>
+      </div>
     </div>
+    <div class="footer-bottom">
+      {% if site.active_lang == 'pl' %}
+      <p>
+        &copy; {{ 'now' | date: "%Y" }} Wydział Cybernetyki i Robotyki,
+        Politechnika Wrocławska
+      </p>
+      {% else %}
+      <p>
+        &copy; {{ 'now' | date: "%Y" }} Department of Cybernetics and Robotics,
+        Wrocław University of Science and Technology
+      </p>
+      {% endif %}
+    </div>
+  </div>
 </footer>

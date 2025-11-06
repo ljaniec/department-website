@@ -4,7 +4,7 @@ description: >-
   Department of Cybernetics and Robotics,
   Wrocław University of Science and Technology
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://kcir.pwr.edu.pl" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -18,23 +18,23 @@ plugins:
 # Polyglot settings
 languages: ["pl", "en"]
 default_lang: "pl"
-exclude_from_localization: ["javascript", "images", "css", "public", "vendor"]
-parallel_localization: false
+exclude_from_localization: ["javascript", "images", "css", "assets", "public", "vendor"]
+parallel_localization: true
 
 # Collections
 collections:
   faculty:
     output: true
-    permalink: /faculty/:name/
+    permalink: /faculty/:slug/
   research:
     output: true
-    permalink: /research/:name/
+    permalink: /research/:slug/
   laboratories:
     output: true
-    permalink: /laboratories/:name/
+    permalink: /laboratories/:slug/
   seminars:
     output: true
-    permalink: /seminars/:title/
+    permalink: /seminars/:slug/
 
 # Defaults
 defaults:
