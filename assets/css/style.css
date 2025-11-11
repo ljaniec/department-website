@@ -55,6 +55,31 @@ html[lang="en"] body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1.5rem;
+}
+
+.site-logo {
+    flex-shrink: 0;
+}
+
+.site-logo img {
+    height: 90px;
+    width: auto;
+    display: block;
+}
+
+.site-logo-right a {
+    display: block;
+    line-height: 0;
+    transition: opacity 0.3s;
+}
+
+.site-logo-right a:hover {
+    opacity: 0.85;
+}
+
+.site-title {
+    flex-grow: 1;
 }
 
 .site-title a {
