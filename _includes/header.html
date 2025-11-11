@@ -13,7 +13,10 @@
       </div>
 
       <div class="site-title">
-        <a href="{{ lang_prefix }}/">{{ site.title }}</a>
+        <a href="{{ lang_prefix }}/"
+          >{{ site.data[site.active_lang].strings.site_title | default:
+          site.title }}</a
+        >
       </div>
 
       <div class="site-logo site-logo-right">
