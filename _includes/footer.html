@@ -2,8 +2,14 @@
   <div class="container">
     <div class="footer-content">
       <div class="footer-section">
-        <h3>{{ site.title }}</h3>
-        <p>{{ site.description }}</p>
+        <h3>
+          {{ site.data[site.active_lang].strings.site_title | default:
+          site.title }}
+        </h3>
+        <p>
+          {{ site.data[site.active_lang].strings.site_description | default:
+          site.description }}
+        </p>
       </div>
       <div class="footer-section">
         {% if site.active_lang == 'pl' %}
