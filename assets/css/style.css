@@ -98,10 +98,11 @@ html[lang="en"] body {
 }
 
 .site-nav a {
-    color: var(--secondary-color);
+    color: #ffffff;
     text-decoration: none;
     transition: all 0.3s;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1.3rem;
     padding: 0.3rem 0;
     border-bottom: 2px solid transparent;
 }
