@@ -323,7 +323,7 @@ ul {
 }
 
 .back-link a {
-    color: var(--secondary-color);
+    color: var(--link-color);
     font-weight: 500;
 }
 
@@ -412,10 +412,7 @@ ul {
 }
 
 /* Academic paper-like styling for content */
-main {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
+/* (main padding already defined above) */
 
 /* Strong emphasis */
 strong {
@@ -465,6 +462,41 @@ pre code {
     background: none;
     padding: 0;
     border: none;
+}
+
+/* Language switcher */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+}
+
+.lang-flag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+}
+
+.lang-flag:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.footer-section .language-switcher {
+    margin-top: 0.5rem;
+}
+
+.footer-section .lang-flag {
+    font-size: 1rem;
 }
 
 /* Tables */

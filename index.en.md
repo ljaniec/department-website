@@ -20,11 +20,11 @@ We strive to advance the fields of cybernetics and robotics through:
 
 ## Quick Links
 
-- [Faculty Members]({{ lang_prefix }}/faculty/) - Meet our distinguished professors and researchers
-- [Research Topics]({{ lang_prefix }}/research/) - Explore our research areas
-- [Laboratories]({{ lang_prefix }}/laboratories/) - Discover our state-of-the-art facilities
-- [Latest News]({{ lang_prefix }}/news/) - Stay updated with department activities
-- [Seminars]({{ lang_prefix }}/seminars/) - Join our scientific seminars
+- [Faculty Members](/faculty/) - Meet our distinguished professors and researchers
+- [Research Topics](/research/) - Explore our research areas
+- [Laboratories](/laboratories/) - Discover our state-of-the-art facilities
+- [Latest News](/news/) - Stay updated with department activities
+- [Seminars](/seminars/) - Join our scientific seminars
 
 ## Contact
 

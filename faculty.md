@@ -12,10 +12,10 @@ Nasz wydział składa się z poświęconych badaczy i edukatorów, którzy są l
 <div class="faculty-list">
 {% for member in site.faculty %}
   <div class="faculty-card">
-  <h3><a href="{{ member.url }}">{{ member.name }}</a></h3>
+    <h3><a href="{{ member.url }}">{{ member.name }}</a></h3>
     <p class="position">{{ member.position }}</p>
     <p>{{ member.excerpt | strip_html | truncatewords: 30 }}</p>
+  </div>
 {% endfor %}
-</div>
 </div>
 <!-- markdownlint-enable MD033 -->

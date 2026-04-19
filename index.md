@@ -6,7 +6,7 @@ lang: pl
 ---
 
 ## Witamy na stronie Katedry Cybernetyki i Robotyki
-Test $\frac{1}{42}$
+
 Katedra Cybernetyki i Robotyki Politechniki Wrocławskiej jest wiodącym ośrodkiem badawczym i edukacyjnym w Polsce, skupiającym się na najnowocześniejszych technologiach w automatyce, robotyce i systemach inteligentnych.
 
 ## Nasza Misja
@@ -20,11 +20,11 @@ Dążymy do rozwoju dziedzin cybernetyki i robotyki poprzez:
 
 ## Szybkie Linki
 
-- [Członkowie Wydziału]({{ lang_prefix }}/faculty/) - Poznaj naszych wybitnych profesorów i badaczy
-- [Tematy Badań]({{ lang_prefix }}/research/) - Odkryj nasze obszary badawcze
-- [Laboratoria]({{ lang_prefix }}/laboratories/) - Poznaj nasze nowoczesne obiekty
-- [Aktualności]({{ lang_prefix }}/news/) - Bądź na bieżąco z działalnością wydziału
-- [Seminaria]({{ lang_prefix }}/seminars/) - Dołącz do naszych seminariów naukowych
+- [Członkowie Wydziału](/faculty/) - Poznaj naszych wybitnych profesorów i badaczy
+- [Tematy Badań](/research/) - Odkryj nasze obszary badawcze
+- [Laboratoria](/laboratories/) - Poznaj nasze nowoczesne obiekty
+- [Aktualności](/news/) - Bądź na bieżąco z działalnością wydziału
+- [Seminaria](/seminars/) - Dołącz do naszych seminariów naukowych
 
 ## Kontakt
 
